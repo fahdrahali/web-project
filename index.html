@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>
-        
+        Survey Form
     </title>
     
 </head>
@@ -16,12 +17,26 @@
 
 
     <form id="survey-form">
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-        <label for="number">Age</label><br>
-        <input type="number" id="number" name="number" required min="10" max="99"><br>
+        <label for="name-label">Name:</label><br>
+        <input type="text" id="name-label" name="name" placeholder="Name" required><br>
+        <label for="email-label">Email:</label><br>
+        <input type="email" id="email-label" name="email" placeholder="Email" required><br>
+        <label for="number-label">Age</label><br>
+        <input type="number" id="number-label" name="number" placeholder="Age" required min="10" max="99"><br>
+
+        
+        <select id="dropdown">
+            <option value="option1">Option1</option>
+            <option value="option2">Option2</option>
+        </select>
+  
+
+    
+        <input type="radio" id="man" name="sex" value="Man">
+        <label for="man">MAN</label><br>
+        <input type="radio" id="women" name="sex" value="Women">
+        <label for="women">WOMEN</label><br>
+
     </form>
 
 </body>

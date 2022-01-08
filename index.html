@@ -12,12 +12,16 @@
 <body>
     <h1 id="title">Survey Form</h1>
     
-    <p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, fuga! Esse alias aliquam eum quo harum facere commodi fugit eius accusantium assumenda. Quis eum aperiam maxime quasi iusto obcaecati explicabo.</p>
+    <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, fuga! Esse alias aliquam eum quo harum facere commodi fugit eius accusantium assumenda. Quis eum aperiam maxime quasi iusto obcaecati explicabo.</p>
 
 
     <form id="survey-form">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="number">Age</label><br>
+        <input type="number" id="number" name="number" required min="10" max="99"><br>
     </form>
 
 </body>
